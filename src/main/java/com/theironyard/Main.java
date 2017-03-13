@@ -14,17 +14,27 @@ public class Main {
 
         /*
             Use the Converter.convert method at least 3 times using at least 6
-            different units.
+            different units
          */
         // todo: convert something
+        Converter.convert(5, Unit.MILE, Unit.CENTIMETER);
+        {
+
+
+        }
 
 
         // todo: convert something else
+        Converter.convert(400, Unit.YARD, Unit.INCH);
+        {
 
+
+        }
 
         // todo: convert yet another thing
+        Converter.convert(3, Unit.KILOMETER, Unit.METER);
+        {
 
-
+        }
     }
-
 }
